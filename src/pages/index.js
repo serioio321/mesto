@@ -38,7 +38,8 @@ let userId;
 const api = new Api({
   baseUrl: "https://mesto.nomoreparties.co/v1/apf-cohort-202",
   headers: {
-    authorization: "b2bd1f38-d23f-42e7-a848-f20bf935f670"
+    authorization: "b2bd1f38-d23f-42e7-a848-f20bf935f670",
+    "Content-Type": "application/json",
   },
 });
 

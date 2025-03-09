@@ -4,6 +4,7 @@
   "description": "project mesto praktikum",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --mode production",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
