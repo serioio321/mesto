@@ -10,7 +10,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'main.js',
-    publicPath: '',
+    publicPath: '/mesto/',
   },
   mode: 'development',
   devtool: 'inline-source-map',

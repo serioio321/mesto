@@ -16,12 +16,16 @@
   "keywords": [
     "praktikum"
   ],
+  "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+  },
   "author": "serioio321",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/serioio321/mesto/issues"
+    "url": "https://github.com/serioio321/mesto"
   },
-  "homepage": "https://github.com/serioio321/mesto#readme",
+  "homepage": "https://github.com/serioio321/mesto",
   "devDependencies": {
     "@babel/core": "^7.18.9",
     "@babel/preset-env": "^7.18.9",
